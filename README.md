@@ -8,22 +8,24 @@ The model utilizes a Transformer architecture, specifically a decoder-only model
 
 Key components include:
 
-* ![image](https://github.com/user-attachments/assets/34ad8885-a661-4fd1-ad4c-29da1169da0a)
+ ![image](https://github.com/user-attachments/assets/34ad8885-a661-4fd1-ad4c-29da1169da0a)
   
 * **Self-Attention Mechanism:**  Allows the model to weigh the importance of different words in the input sequence when predicting the next word. This is crucial for capturing long-range dependencies in text.
+  
   ![image](https://github.com/user-attachments/assets/d9fcb175-b8bf-48b4-86bc-9a820f7565b5)
   
-
 * **Positional Encoding:**  Since the Transformer architecture doesn't inherently process sequential data, positional encodings are added to the input embeddings to provide information about the word order.
+  
   ![image](https://github.com/user-attachments/assets/35ccd471-37c7-468b-bffe-a5c03cd3e140)
 
 * **Feed-Forward Networks:**  These networks process the output of the self-attention mechanism, further transforming the representations.
-
-  ![image](https://github.com/user-attachments/assets/58f7d413-849c-4826-a1c0-c3b050f77337)
+  
+![image](https://github.com/user-attachments/assets/b462ea53-0271-4e63-8150-a225e13c9751)
 
 * **Decoder Layers:**  Multiple decoder layers are stacked, each consisting of self-attention and feed-forward networks.  The output of one layer serves as the input to the next, allowing for hierarchical feature extraction.
+  
+  ![image](https://github.com/user-attachments/assets/58f7d413-849c-4826-a1c0-c3b050f77337)
 
-![image](https://github.com/user-attachments/assets/b462ea53-0271-4e63-8150-a225e13c9751)
 
 
 ## End-to-End Implementation
