@@ -2,9 +2,11 @@
 Fine-tuning a Transformer Decoder Model for Text Classification
 
 
-al Aspects
+Technical Aspects
 
-The model utilizes a Transformer architecture, specifically a decoder-only model similar to GPT, for next-word prediction.  This architecture is based on the "Attention is All You Need" paper.  Key components include:
+The model utilizes a Transformer architecture, specifically a decoder-only model similar to GPT, for next-word prediction.  This architecture is based on the "Attention is All You Need" paper.  
+
+Key components include:
 
 * ![image](https://github.com/user-attachments/assets/34ad8885-a661-4fd1-ad4c-29da1169da0a)
   
@@ -36,12 +38,9 @@ The model utilizes a Transformer architecture, specifically a decoder-only model
    - The predicted word's ID is appended to the input sequence, and the process repeats.
    - The prediction loop continues until a special token (e.g., end-of-sequence or separator token) is predicted or a maximum sequence length is reached.
 
-
 4. **Decoding:** The predicted token IDs are decoded back into text using the tokenizer.
 
-## Training the Model (Not shown in the code snippet)
-
-The provided code snippet demonstrates inference but doesn't include training.  To train the model, you would typically need:
+## Training the Model  
 
 1. **Dataset and DataLoader:** A labeled dataset with input sequences and corresponding target next words, along with a DataLoader to efficiently feed data to the model.
 
@@ -74,7 +73,7 @@ Encoder-decoder architectures are better suited for tasks where you have a separ
 ![image](https://github.com/user-attachments/assets/08ccc096-403f-4489-861b-bde68f405518)
 
 
-## Next Steps : (Yet to plan)
+## Next Steps : 
 
 * **Complete Training Code:** Implement the training loop, loss function, and optimizer.
 * **Hyperparameter Tuning:** Experiment with different hyperparameters (learning rate, batch size, etc.) to optimize model performance.
