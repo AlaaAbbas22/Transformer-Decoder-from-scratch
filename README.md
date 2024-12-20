@@ -61,7 +61,7 @@ Decoder-only architectures, like the one used in this example, are suitable for:
 * **Text generation:**  Tasks such as next word prediction, text completion, and story generation, where the model generates text sequentially.
 * **Language modeling:** Predicting the probability of the next word in a sequence.
 * **Machine translation (with modifications):** While traditionally done with an encoder-decoder, decoder-only architectures can be adapted.
-![image](https://github.com/user-attachments/assets/0f45e62b-8b1b-4ca2-addb-3c91ac1b7624)  ![image](https://github.com/user-attachments/assets/122c09fc-c0b7-48b7-a4aa-006766da83ed)
+![image](https://github.com/user-attachments/assets/0f45e62b-8b1b-4ca2-addb-3c91ac1b7624) 
 ![image](https://github.com/user-attachments/assets/f6dd885a-2dc0-4d41-92e6-9cf2778dc516)
 
 
@@ -73,6 +73,7 @@ Encoder-decoder architectures are better suited for tasks where you have a separ
 * **Summarization:** Input is a long document, and the output is a shorter summary.
 * **Question Answering:** Input is a question and a context, and the output is an answer.
 ![image](https://github.com/user-attachments/assets/08ccc096-403f-4489-861b-bde68f405518)
+![image](https://github.com/user-attachments/assets/a9260fa8-0a71-43ee-9b58-9c093ada20ab)
 
 
 ## Next Steps : 
